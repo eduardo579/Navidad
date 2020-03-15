@@ -5,7 +5,7 @@ import time
 
 mutex = threading.Lock()
 
-arbol = list(open('/home/eduardo579/Documents/Proyectos/General/Navidad/arbol.txt').read().rstrip())
+arbol = list(open('/home/eduardo579/Documents/Navidad/arbol.txt').read().rstrip())
 
 def luces(color, indices):
     apagado = True
